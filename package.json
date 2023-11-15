@@ -1,0 +1,36 @@
+{
+  "name": "vue3-counter",
+  "version": "1.0.0",
+  "description": "A counter component for Vue3 applications.",
+  "type": "module",
+  "main": "./dist/vue3-counter.umd.js",
+  "module": "./dist/vue3-counter.js",
+  "types": "./dist/index.d.ts",
+  "author": "Irteza Asad",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-counter.esm.js",
+      "require": "./dist/vue3-counter.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.6.3",
+    "vue-tsc": "^1.8.5",
+    "vue": "^3.3.4"
+  }
+}
