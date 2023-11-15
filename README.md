@@ -69,9 +69,6 @@ const config = {
 | `input` | User types on the input. |
 | `change` | Everytime the value changes. |
 
-## Support
-
-If my code has helped you, please consider [buy me a coffee](https://www.buymeacoffee.com/nightcat) ☕.
 
 ## License
 

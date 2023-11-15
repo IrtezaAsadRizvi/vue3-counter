@@ -32,5 +32,9 @@
     "vite-plugin-dts": "^3.6.3",
     "vue-tsc": "^1.8.5",
     "vue": "^3.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IrtezaAsadRizvi/vue3-counter"
   }
 }
