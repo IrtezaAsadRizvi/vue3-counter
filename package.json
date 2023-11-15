@@ -1,6 +1,6 @@
 {
   "name": "vue3-counter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A counter component for Vue3 applications.",
   "type": "module",
   "main": "./dist/vue3-counter.umd.js",
